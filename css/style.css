@@ -23,14 +23,29 @@ header h1{
     justify-content: center;
     flex-direction: column;
 }
-.hero-unit-caption{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.hero-unit-section a{
+    display:block;
 }
 .hero-unit-section img{
     width: 100vw;
 }
+
+.hero-unit-caption{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+.hero-unit-mask{
+    position: absolute;
+    background-color: coral;
+    border-radius: 20px;
+    height:20%;
+    opacity: 0.6;
+    width: 40vw;
+
+}
+
 .paper-layout-section{
     display: flex;
     justify-content: space-around;
