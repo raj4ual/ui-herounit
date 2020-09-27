@@ -1,0 +1,53 @@
+ body{
+    margin: 0px;
+} 
+header{
+    background-color: #2a9d8f;
+    padding-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color:whitesmoke;
+}
+header nav,ul,li{
+    display:inline;
+    font-family: 'Dancing Script', cursive;
+}
+header h1{
+    /* font-family: 'Waiting for the Sunrise', cursive; */
+}
+.hero-unit-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero-unit-caption{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-unit-section img{
+    width: 100vw;
+}
+.paper-layout-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.paper{
+    border:2px coral solid;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5px;
+}
+.paper img{
+    width: 30vw;
+}
+footer{
+    background-color: navy;
+    display:flex;
+    color:palegoldenrod;
+    padding: 10px;
+}
